@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,8 +16,8 @@ body {
 }
 
 .portfolio-container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     min-height: 100vh;
     max-width: 1280px;
     margin: 0 auto;
@@ -21,7 +26,7 @@ body {
 }
 
 .left-section {
-    width: 45%;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -36,11 +41,14 @@ body {
 
 ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 
 .right-section {
-    width: 55%;
+    width: 100%;
     height: 200vh;
     padding: 6rem 2rem;
     background-color: green;
@@ -50,5 +58,17 @@ ul {
 
 .right-section p {
     margin-bottom: 1.2rem;
+
+}
+
+@media (max-width: 760px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+
+    .left-section {
+        position: relative;
+        height: auto;
+    }
 
 }
