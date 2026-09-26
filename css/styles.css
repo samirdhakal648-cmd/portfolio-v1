@@ -46,6 +46,17 @@ ul {
     gap: 1.5rem;
 }
 
+a {
+    text-decoration: none;
+}
+
+.social-platforms {
+    gap: 2rem;
+    align-items: center;
+    margin-right: 32px;
+    width: 30px;
+    height: 60px;
+}
 
 .right-section {
     width: 100%;
