@@ -11,8 +11,8 @@ html {
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: oklch(18% 0.01 260);
-    color: #94a3b8;
+    background-color: #0a192f;
+    color: #CBD5E1;
 }
 
 .portfolio-container {
@@ -36,15 +36,37 @@ body {
     padding: 6rem 0;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #FAF6EE;
+}
+
+.intro p {
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FAF6EE;
+}
+
+.nav-links a {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+    transform: translateX(10px); 
+    color: #64ffda;
+}
+ 
 ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-}
-
-a {
-    text-decoration: none;
 }
 
 .social-platforms {
@@ -71,6 +93,7 @@ a {
 
 .right-section p {
     margin-bottom: 1.2rem;
+    font-size: 1.1rem;
     text-align: justify;
 }
 
