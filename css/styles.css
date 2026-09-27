@@ -58,15 +58,40 @@ a {
 }
 
 .nav-links a:hover {
-    transform: translateX(10px); 
+    transform: translateX(10px);
     color: #64ffda;
 }
- 
+
 ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 30px;
+    margin-top: 6rem;
+    padding: 1rem;
+    align-items: start;
+}
+
+.skills-set {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.skills-set p {
+    align-items: center;
+    text-align: center;
+    background-color: none;
+    border: 1px solid grey;
+    color: cyan;
+    padding: 4px 10px;
+    border-radius: 20px;
 }
 
 .social-platforms {
