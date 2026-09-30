@@ -59,6 +59,7 @@ a {
 
 .nav-links a {
     display: inline-block;
+    margin-bottom: 1rem;
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -102,6 +103,7 @@ ul {
 }
 
 .right-section p {
+    max-width: 65ch;
     margin-bottom: 1.2rem;
     font-size: 1.1rem;
     text-align: justify;
