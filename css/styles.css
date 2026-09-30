@@ -11,12 +11,16 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #0A0908;
-    color: #CBD5E1;
+    background-color: #161719;
+    /* color: #f8fafc; */
+    color: #c5c7cb;
 }
 
-h1, h3 {
+h1,
+h3,
+.nav-links {
     font-family: 'Libre Baskerville', serif;
+    letter-spacing: -0.02em;
 }
 
 .portfolio-container {
@@ -45,7 +49,7 @@ h1, h3 {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    color: #FAF6EE;
+    color: #f7f5f0;
 }
 
 .intro p {
@@ -123,6 +127,7 @@ ul {
 .experience-grid:hover {
     cursor: pointer;
     border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
