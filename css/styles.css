@@ -151,6 +151,10 @@ ul {
     border-radius: 20px;
 }
 
+.last-section {
+    font-family: 'Libre Baskerville', serif;
+}
+
 @media (max-width: 760px) {
     .portfolio-container {
         grid-template-columns: 1fr;
