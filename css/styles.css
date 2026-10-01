@@ -127,7 +127,7 @@ ul {
 .experience-grid:hover {
     cursor: pointer;
     border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 12px;
+    border-radius: 16px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -145,7 +145,7 @@ ul {
     align-items: center;
     text-align: center;
     background-color: none;
-    border: 1px solid grey;
+    border: 2px solid grey;
     color: cyan;
     padding: 4px 10px;
     border-radius: 20px;
