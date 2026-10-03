@@ -128,13 +128,6 @@ ul {
     transition: background-color 0.30s ease;
 }
 
-.experience-grid:hover {
-    cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 16px;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
 .heading3:hover {
     color: cyan;
 }
@@ -172,7 +165,7 @@ ul {
         height: auto;
         position: relative;
         height: auto;
-        padding: 2rem 0;
+        padding: 0.5rem 0;
         align-items: flex-start;
     }
 
@@ -223,6 +216,16 @@ ul {
 
     .experience-grid {
         grid-template-columns: 1fr;
+        margin-top: 1.5rem;
     }
 
+}
+
+@media (hover: hover) {
+    .experience-grid:hover {
+        cursor: pointer;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 16px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
 }
