@@ -175,10 +175,14 @@ ul {
     .phone {
         display: flex;
         color: inherit;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
         font-family: 'Libre Baskerville', serif;
         font-size: 1.5rem;
+    }
+
+    #experience-section {
+        padding-top: 2rem;
     }
 
     .last-section {
