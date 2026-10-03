@@ -12,7 +12,6 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     background-color: #161719;
-    /* color: #f8fafc; */
     color: #c5c7cb;
 }
 
@@ -106,17 +105,12 @@ ul {
     line-height: 1.8;
 }
 
-.last-section {
-    padding-top: 2rem;
-}
-
 .right-section p {
     max-width: 65ch;
     margin-bottom: 1.2rem;
     font-size: 1.1rem;
     text-align: justify;
 }
-
 
 .experience-grid {
     display: grid;
@@ -149,6 +143,7 @@ ul {
 }
 
 .last-section {
+    padding-top: 2rem;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -217,6 +212,12 @@ ul {
     .experience-grid {
         grid-template-columns: 1fr;
         margin-top: 1.5rem;
+    }
+
+    .experience-time {
+        font-weight: bold;
+        color: rgb(9, 180, 180);
+        font-family: 'Libre Baskerville', serif;
     }
 
 }
