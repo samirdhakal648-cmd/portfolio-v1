@@ -160,7 +160,8 @@ ul {
         height: auto;
         position: relative;
         height: auto;
-        padding: 0.5rem 0;
+        padding: 2rem 0;
+        margin-top: 5rem;
         align-items: flex-start;
     }
 
